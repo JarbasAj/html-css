@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <H1>Imagens dinâmica</H1>
+    <p>
+        Criando imagens para abrir em dispositivos diferentes. Posso fazer o teste diminuindo e aumentando o tamanho da tela do meu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexiveis">
+    </picture>
+    <h2>Explicando como fazer imagem dinâmica</h2>
+    <p>
+        A imagem dinâmica serva para se ajustar a diferentes telas e dispositivos. Caso seja uma única imagem, pode aparecer uma barra de rolagem lateral ao qual <br> o usuário pode deixar de acessar o site pelo incômodo de rolar para o lado, ou seja, a imagem não ira se adaptar ao tamanha da tela.
+    </p>
+    <p>
+           Para que a imagem se ajuste, basta seguir alguns comandos, mas antes, temos que se atentar a sequência a ser feito: <br> <dl><li>Primeiro adicione a imagem maior (ou tamanho natural);</li> <br> <li>Em seguida use a tag "source:media:type" ao qual irá indicar o tamanho da tela (ex:1050px) que será o máximo que o navegador ira indicar para <br> passar a próxima imagem e indicar o endereço da imagem de tamanho médio;</li> <br> <li>E por último utiliza-se a tag "source:midia:type" indicando o máximo da página em 750px e linkar a imagem de tamanha pequeno.</li></dl>
+    </p>
+    <p>
+        PS: Cada "source:midia:type" tem que ser colocado em ordem acima da tag "img" conforme exemplo abaixo.
+    </p>
+    <p>
+        PS2: Todas essas tags tem que está inseridas dentro da tag "picture", conforme exemplo abaixo
+    </p>
+
+    <h3>Exemplo dos comandos</h3>
+    <p>
+        &lt;picture&gt; <br>
+            3° - &lt;source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"&gt;<br>
+            2° - &lt;source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"&gt; <br>
+            1° - &lt;img src="imagens/foto-g.png" alt="imagem flexiveis"&gt;<br>
+        &lt;/picture&gt;
+
+    </p>
+    <p>
+        Lembrar de sempre seguir essa ordem.
+    </p>
+
+
+
+    <p>
+        <a href="pag002.html" rel="next" target="_self">Pagina 2</a> - Teste com fotografia própria 
+    </p>
+    <p>
+        <a href="pag03.html" rel="next" target="_self">Pagina 3</a> - Como colocar audio?
+    </p>
+   
+   
+</body>
+</html>

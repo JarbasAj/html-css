@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <H1>Inserindo videos hospedado localmente</H1>
+    <p>
+        Este video esta hospedado no meu próprio servidor
+    </p>
+    <video src="midia/rio-gelado-mp4.mp4" width="500
+    " controls>TESTE</video>
+
+    <p>
+        Para adicionar uma midia de video de maneira simples, basta inserir as tags:
+    </p>
+    <p>
+        <mark>&lt;video src="local de arquivo no servidor.mp4" width="500" controls&gt;&lt;video&gt;</mark>
+    </p>
+    <p>
+        video src=<br>Indica o local que o video está no seu servidor
+    </p>
+    <p>
+        width=""<br>Indica o tamanho que o player aparecerá no navegador
+    </p>
+    <p>
+        controls <br> Irá aparecer no seu player os controles de "play", "volume" e outros menus
+    </p>
+
+    <h2>Adicionando vários videos para reprodução</h2>
+    <video width="500" poster="imagem/riogelado1200.png" controls>
+        <source src="midia/rio-gelado-ogv.ogv" type="video/ogv">
+        <source src="midia/rio-gelado-mp4.mp4" type="video/mpe">
+        <source src="midia/rio-gelado-webm.webm" type="video/webm">
+        <source src="midia/rio-gelado-mkv.mkv" type="video/mkv">
+        <p>
+            Seu navegador não tem compatibilidade para a reprodução de video.
+        </p>
+
+    </video>
+
+    <p>
+        Ao adicionar vários video em seu site tem a função do navegador poder tentar reproduzir o player em diferentes formatos, ou seja, no navegador aparecerá somente um player e dependendo do navegador ele poderá ou não ler diferentes arquivos como .ogv, .mkv, mp4, webm, entre outros.
+    </p>
+    <p>
+        Para essa funcionalidade utilizamos as tags:
+    </p>
+    <p>
+        &lt;video width="500" poster="imagem/riogelado1200.png" controls&gt; <br>
+            &lt;source src="midia/NomeDoArquivo.ogv" type="video/ogv"&gt;<br>
+            &lt;source src="midia/NomeDoArquivo.mp4" type="video/mpe"&gt;<br>
+            &lt;source src="midia/NomeDoArquivo.webm" type="video/webm"&gt;<br>
+            &lt;source src="midia/NomeDoArquivo.mkv" type="video/mkv"&gt;<br>
+            &lt;p&gt;<br>
+                Seu navegador não tem compatibilidade para a reprodução de video. <br>
+            &lt;/p&gt;<br>
+    
+        &lt;/video&gt;
+    </p>
+    <p>
+       A frase <mark><q> Seu navegador não tem compatibilidade para a reprodução de video.</q></mark> Só aparecerá no seu navegador caso nenhum arquivo seja compativo <br> Convém colocar um botão de downloado caso isso aconteça 
+    </p>
+    <h2>Os contras de hospedar videos dessa maneira</h2>
+    <p>
+        Quando colocamos vídeos no nosso próprio servidor, podemos passar por problemas
+        com alto consumo de banda, site lento e incompatibilidades com alguns navegadores
+        por conta dos codecs. E geralmente só percebemos esses problemas quando
+        colocamos nosso projeto no ar e lançamos oficialmente.
+    </p>
+    <p>
+        Vamos fazer uma conta simples: um vídeo simples, com poucos
+minutos, em formato mp4 com codec padrão deve ocupar uns
+150MB com facilidade. Agora imagine que você lance seu site e
+200 visitantes (um número super possível) acessem seu site e
+reproduzam o vídeo. Pronto, você acabou de utilizar 29GB de
+tráfego! Imagine o quanto isso pode deixar seu site lento ou
+consumir sua franquia de hospedagem, caso não seja ilimitada.
+    </p>
+    <p>
+        E é claro que seu site possivelmente não vai ter apenas um vídeo, não vai ter apenas
+200 visitantes em um dia e aí a conta só aumenta. É preciso tomar muito cuidado
+quando decidimos guardar nossos próprios vídeos.
+    </p>
+
+  <h2>Como incorporar videos em seu site</h2>
+  <p>
+    Youtube
+  </p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-QFZU78dy_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <p>
+    Vimeo
+  </p>
+  <iframe src="https://player.vimeo.com/video/294278911?h=235e00458b&color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  
+
+</body>
+</html>

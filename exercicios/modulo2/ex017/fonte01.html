@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;            
+            /*
+            Medidas absolutas
+            cm, mm, in(polegadas), px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* Pesos literais = lighter, normal, bold, bolder
+            */
+            
+        }
+        h1{
+            
+            /*
+            Shorthand font
+
+            - font-style -> font-weight -> font-size -> font-family
+
+            No lugar desses comando:
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            utilizar shorthands nessa ordem
+            */
+            font: italic bolder 3em 'Courier New', Courier, monospace;
+
+        }
+        h2{
+            font: bold 2em 'Courier New', Courier, monospace;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, suscipit qui ipsa non mollitia consequatur, quo aliquid quam, modi cum ut. Amet magnam facere beatae maxime vitae consectetur dolor harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi perferendis, amet reprehenderit consequuntur atque odio quae, tempora eligendi reiciendis mollitia recusandae voluptas sed error, soluta officia ipsa beatae. Commodi, tempora!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatum velit, adipisci provident necessitatibus enim sit delectus? Dolore, neque dolores. Voluptatibus nulla inventore exercitationem qui beatae mollitia consectetur hic dignissimos.
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum officiis tempora, maiores exercitationem necessitatibus ut quae, ullam in veritatis corrupti quisquam rem. Dolor eligendi cum nam. Sapiente rem aut dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit.   
+    </p>
+
+    
+</body>
+</html>

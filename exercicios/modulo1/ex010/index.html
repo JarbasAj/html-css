@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links </title>
+</head>
+<body>
+    <h1>Usando Links externos</h1>
+    <h2>Exemplo de abertura de links em outra aba</h2>
+    <p>
+        Acessando uma pagina da internet, no caso será o <a href="https://twitter.com/jarbasajota" target="_blank" rel="external">meu Twitter</a>
+    </p>
+    <p>
+        Para que um trecho do seu texto esteja linkado utilza-se as tags <br> <mark>&lt;a href="url externa" target="_blank" rel="external"&gt;Trecho do texto a ser linkado&lt;/a&gt;</mark>
+    </p>
+    <p><strong>As tags</strong></p>
+    <dl>
+        <strong>
+            <dt>&lt;a&gt;</dt>
+        </strong>
+        <em>
+            <dd>Para iniciar a tag de marcação de hyperlink</dd>
+        </em> <br>
+        <strong>
+            <dt>target="_blank"</dt>
+        </strong>
+        <em>
+            <dd>Para indicar que o link deverá ser aberto em outra aba</dd>
+        </em> <br>
+        <strong>
+            <dt>rel="external"</dt>
+        </strong>
+        <em>
+            <dd>Para indicar aos mecanismo de busca que se trata de um link externo</dd>
+        </em>
+    </dl>
+    <p>
+        Exemplo adicional
+    </p>
+    <dl>
+        <strong>
+            <dt>hreflang="idioma"</dt>
+        </strong>
+        <em>
+            <dd>Permite indicar qual é o
+                idioma principal do site para onde o link está desviando o fluxo de navegação. <br> Isso vai
+                permitir avisar ao navegador e a softwares de tradução como lidar caso o visitante
+                opte por traduzir <br> automaticamente os conteúdos.</dd>
+        </em>
+    </dl>
+
+    <h2>Exemplo de abertura de link na mesma aba</h2>
+    
+    <p>
+        Para acessa o link do youtube do <a href="https://www.youtube.com/channel/UCUZUch5OtHU3LzUOl8zSSlg">meu Canal</a> 
+    </p>
+    <p>
+        Para links dentro do seu site utiliza-se essa tag: <br> <mark>&lt;a&gt; <br> &lt;a href="url de dentro do seu site"&gt;trecho do texto a ser linkado&lt;/a&gt;</mark>
+    </p>
+    <p>
+        Essa forma fecha a aba atual e abre uma nova aba por não ter as tags <mark>target</mark> e <mark>rel</mark>
+    </p>
+    <br>
+    <h2>Usando links internos</h2>
+    <p>
+        Ele vai fazer a relação com outra pagina que está dentro de um servidos, ou seja, paginas dentro do nosso site  
+    </p>
+    <p>
+        Está é a primeira pagina do site e estaremos linkdando com a segunda página <br>
+        <a href="pag002.html" rel="next" target="_self">Clicando Aqui</a>
+    </p>
+    <p>
+        Nessa link você pode acessar a pagina de <a href="noticia/pag003.html">noticias</a>
+    </p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="Livro/01 - História da Internet.pdf" download="Livro/01 - História da Internet.pdf" type="application/pdf">Baixar modulo em PDF</a></li>
+        <li><a href="Livro/historiadainternet.zip" download="historiainternet.zip" type="application/zip">Modulo compactado .ZIP</a></li>
+    </ul>
+
+    <p>
+        Para colocar um link de download em seu site utiliza-se os parâmetros: <br>
+        &lt;a href="local onde está o arquivo" <mark>download</mark>="nome do arquivo" <mark>type="application/zip"</mark>>Texto do link do download&lt;/a&gt;
+    </p>
+    <ul>
+        <p>
+            <li>download</mark>="nome do arquivo"</li><br> Indica para o navegador fazer o download do arquivo
+        </p>
+        <p>
+            <li>type="application/zip"</li><br>Indica ao navegador o tipo de download que será feito.
+        </p>
+    </ul>
+
+    
+    
+</body>
+</html>

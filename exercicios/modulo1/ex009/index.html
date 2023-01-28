@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="aj-icon.ico" type="image/x-icon">
+    <title>Listas em HTML</title>
+    
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas </h2>
+    <p>
+        Ex(1)
+    </p>
+    <ol>
+        <li>Acordar</li>
+        <li>tomar café</li>
+        <li>lavar a louça</li>
+        <li>escovar os dentes</li>
+        <li>estudar html</li>
+    </ol>
+<p>
+    Ex:(2)
+</p>
+    <p>Como números romanos</p>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>tomar café</li>
+        <li>lavar a louça</li>
+        <li>escovar os dentes</li>
+        <li>estudar html</li>
+    </ol>
+
+    <p>
+        Para fazer uma Lista Ordenadas utiliza-se a tag <mark> &lt;ol&gt; </mark><br> Cada item da lista deve iniciar com a tag <mark>&lt;li&gt;</mark> para dar sequência nos itens. <br> A sequênciados itens pode ser diferenciada em números, letras maiusculas, letras minusculas, números romanos e números romanos minusculos. Para isso dentro da tag &lt;ol&gt; acrescetanta a "type"<br> Ex: &lt;ol <mark>type</mark>=""&gt;
+
+        <ul>
+            <li>A - Letras maiusculas</li>
+            <li>a - Letras minusculas</li>
+            <li>I - numeos romanos</li>
+            <li>i - Numeros romanos minusculas</li>
+        </ul>
+
+          </p>
+          <p>
+            PS: Somente a tag &lt;ol&gt; cria automaticamente números da lista
+          </p>
+
+    <h2>Lista não Ordenada</h2>
+    <p>Ex:(1)</p>
+
+    <ul>
+        <li>pão</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <li>Manteiga</li>
+        <li>Feijão</li>
+    </ul>
+    
+    <p>
+        Ex:(2)
+    </p>
+    <ul type="Circle">
+        <li>pão</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <li>Manteiga</li>
+        <li>Feijão</li>
+
+    </ul>
+
+    <p>
+        Para fazer listas não ordenadas utiliza-se a tag &lt;ul&gt;. <br>Como nas listas ordenadas podemos mudar o tipo do inicio &lt;ul&gt; acrescetanta a "type"<br> Ex: &lt;ul&gt; type=<mark>"escrever o tipo da marcação"</mark>&gt;<br>
+        </p>
+        <p>
+            Para Lista não ordenadas temos três tipos
+        </p>
+        <ul>
+            <li>Normal</li>
+        </ul>
+        <ul type="Circle">
+            <li>Circle</li>
+        </ul>
+        <ul type="Square">
+            <li>squere</li>
+        </ul>
+        <h2>Minhas linguagens favoritas</h2>
+        <ol>
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Cliper</li>
+                <li>Visual Basic</li>
+                <li>Fortram</li>
+                <li>Delphi</li>
+            </ol>
+            <li>Novas</li>
+            <ol type="a" start="5">
+                <li>PHP</li>
+                <li>Pyton</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>
+        </ol>
+        <h2>Listas Mistas</h2>
+        <p>
+            Listas mistas consistem em mesclar as Listas Ordenadas e Não Ordanadas com os tipos (type) diferentes. <br> Muito usado para fazer MENUS de sites.
+        </p>
+
+        <p>
+            <strong><em>Exemplos de Listas mistas</em> </strong>
+        </p>
+        <h3>Meus consoles preferidos</h3>
+        <ol>
+            <li>NES</li>
+            <ul type="square">
+                <li>Mario Bros</li>
+                <ul type="circle">
+                    <li>mario bros 3</li>
+                    <li>Mario: Lost Level</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+            </ul>
+            <li>SNES</li>
+            <ul type="square">
+                <li>Super Mario World</li>
+                <li>Zelda</li>
+                <li>Donkey Kong</li>
+                <li>F1 - Ayrton Senna</li>
+            </ul>
+            <li>PLaystation II</li>
+            <ul type="square">
+                <li>Formula 1 2006</li>
+                <li>Bomba patch</li>
+                <li>Black</li>
+                <li>God of War</li>
+            </ul>
+            <li>Xbox 360</li>
+            <ul type="square">
+                <li>Formula 1</li>
+                <li>PES2017</li>
+            </ul>
+        </ol>
+
+        <h2>Lista de Definição</h2>
+
+        <p>
+            Lista de Definição <mark>&lt;dl&gt;</mark> é como se fosse um dicionário de um site onde haverá um termo <mark>&lt;dt&gt;</mark> e uma definição <mark>&lt;dd&gt;</mark>
+        </p>
+       
+
+        <dl>
+            <dt>HTML</dt>
+            <dd><em>Linguagem de marcação para a criação do conteúdo de um site</em></dd>
+            <dt>CSS</dt>
+            <dd><em>Linguagem de marcação para a criação do design de um site</em></dd>
+            <dt>JavaScript</dt>
+            <dd><em>Linguagem de programação para a criação de interatividade de um site</em></dd>
+        </dl>
+        
+</body>
+</html>
