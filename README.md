@@ -5,4 +5,4 @@
 
  MODULO 1
 
- <a href="https//jarbasaj.github.io/html-css/exercicios/modulo1/ex001">Executar ex001</a>
+ <a href="https://jarbasaj.github.io/html-css/exercicios/modulo1/ex001">Executar ex001</a>
