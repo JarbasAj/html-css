@@ -1,4 +1,4 @@
 # html-css
  Curso de HTML5 e CSS3
 
- Aprendendo HTML e CSS com Curso em Video
+ Exercícios e desafios para o Curso de HTML5 e CSS3
