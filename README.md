@@ -3,4 +3,4 @@
 
 Primeiro projeto concluido
 
- <a href="https://https://jarbasaj.github.io/projeto-android/index.html">Projeto Android</a>
+ <a href="https://jarbasaj.github.io/projeto-android/index.html">Projeto Android</a>
