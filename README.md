@@ -1,8 +1,6 @@
 # html-css
  Curso de HTML5 e CSS3
 
- Exercícios e desafios para o Curso de HTML5 e CSS3
+Primeiro projeto concluido
 
- MODULO 1
-
- <a href="https://jarbasaj.github.io/html-css/exercicios/modulo1/ex001">Executar ex001</a>
+ <a href="https://https://jarbasaj.github.io/projeto-android/index.html">Projeto Android</a>
